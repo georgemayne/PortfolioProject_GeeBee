@@ -1,0 +1,36 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tablinks {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+}
+
+.tablinks.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent p {
+    margin: 0;
+}

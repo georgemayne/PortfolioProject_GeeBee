@@ -1,60 +1,19 @@
-:root {
-    --main-color: #10064b;
-    --main-color-darker: #060220;
-    --main-color-lighter: #10064b;
-    --white: #ffffff;
+body {
+    width: 100%;
+    min-width: fit-content;
 }
 
-.text-main-color {
-    color: var(--main-color-darker);
-}
-
-.border-main-color {
-    border-bottom-style: solid;
-    border-width: 4px;
-    border-color: var(--main-color-darker);
-}
-
-.nav-item svg {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-}
-
-.profile {
-    width: 50px;
-    height: 50px;
-    padding: 7px;
-}
-
-.bg-second-color {
-    background-color: rgb(228, 224, 224);
-}
-
-#left-list {
-    margin-left: 10px;
-}
-
-#left-list a {
-    text-decoration: none;
-    padding: 10px;
-    color: gray;
-    font-size: 13px;
-    text-align: center;
-}
-
-.d-flex {
+.main-contents {
+    display: flex;
     justify-content: center;
-    padding: 5px;
-    margin: 20px;
+    align-items: center;
+    padding: 50px 0;
+    min-width: fit-content;
     width: 100%;
 }
 
-.nav-item:hover {
-    background-color: rgb(228, 224, 224);
-    border-radius: 100%;
-}
-
-.logo {
-    object-fit: contain;
+.sub-contents {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
 }

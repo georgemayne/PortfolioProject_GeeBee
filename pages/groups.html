@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Page</title>
+    <link rel="stylesheet" href="../asset/css/groups.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Group Page</h1>
+    <div class="tabs">
+        <button class="tablinks active" onclick="openCategory(event, 'jobs')">Jobs</button>
+        <button class="tablinks" onclick="openCategory(event, 'scholarships')">Scholarships</button>
+        <!-- Add more buttons for additional categories as needed -->
+    </div>
+
+    <div id="jobs" class="tabcontent" style="display: block;">
+        <!-- Placeholder for job listings -->
+        <p>List of job listings goes here...</p>
+    </div>
+
+    <div id="scholarships" class="tabcontent">
+        <!-- Placeholder for scholarship listings -->
+        <p>List of scholarships goes here...</p>
+    </div>
+    <!-- Add more divs for additional categories as needed -->
+</div>
+
+<script src="../asset/js/group.js"></script>
+
+</body>
+</html>
