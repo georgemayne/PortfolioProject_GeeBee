@@ -49,19 +49,6 @@
     background-color: rgb(228, 224, 224);
 }
 
-/* Left List Styles */
-#left-list {
-    margin-left: 10px;
-}
-
-#left-list a {
-    text-decoration: none;
-    padding: 10px;
-    color: gray;
-    font-size: 13px;
-    text-align: center;
-}
-
 /* Flexbox Centering */
 .d-flex {
     justify-content: center;

@@ -7,7 +7,7 @@
     <title>Geebee | Home</title>
     
     <!-- CSS Links -->
-    <link rel="stylesheet" href="/asset/css/main.css">
+    <link rel="stylesheet" href="../asset/css/dashboard.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
     <!-- ICON Link -->
@@ -45,47 +45,18 @@
     });
 </script>
 
-<div class="main-contents">
-    <div class="sub-contents">
-        <!-- <div id="column" class="column">
-            <h2>Groups</h2>
-            <script type="text/JavaScript">
-                // Ensure jQuery is loaded before this script
-                $(document).ready(function() {
-                    $('#column').load('./pages/groups.html', function(response, status, xhr) {
-                        if (status == "error") {
-                            console.log("Error: " + xhr.status + ": " + xhr.statusText);
-                        }
-                    });
-                });
-            </script>
-        </div> -->
-        <div id="column" class="column">
-            <h2>Main Contents</h2>
-            <script type="text/JavaScript">
-                // Ensure jQuery is loaded before this script
-                $(document).ready(function() {
-                    $('#column').load('./pages/feed.html', function(response, status, xhr) {
-                        if (status == "error") {
-                            console.log("Error: " + xhr.status + ": " + xhr.statusText);
-                        }
-                    });
-                });
-            </script>
+
+
+<div class="bg-light pt-4">
+    <div class="container mb-5">
+        <div class="row">
+            <div id="left-list" class="col-2 d-flex flex-column">
+                <a class="bg-second-color" href="#">
+                    <span class="rounded">+</span>
+                    <span>Create Group</span>
+                </a>
+            </div>
         </div>
-        <!-- <div id="column" class="column">
-            <h2>Widgets</h2>
-            <script type="text/JavaScript">
-                // Ensure jQuery is loaded before this script
-                $(document).ready(function() {
-                    $('#column').load('./pages/widgets.html', function(response, status, xhr) {
-                        if (status == "error") {
-                            console.log("Error: " + xhr.status + ": " + xhr.statusText);
-                        }
-                    });
-                });
-            </script>
-        </div> -->
     </div>
 </div>
 

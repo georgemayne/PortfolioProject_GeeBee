@@ -1,0 +1,48 @@
+:root {
+    --main-color: #10064b;
+    --main-color-darker: #060220;
+    --main-color-lighter: #755df8;
+    --white: #ffffff;
+}
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .bg-second-color {
+    background-color: rgb(233, 233, 233);
+}
+
+#left-list {
+    margin-left: 20px;
+}
+
+#left-list a {
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    min-width: fit-content;
+    width: 100%;
+}
+
+.sub-contents {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
