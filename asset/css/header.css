@@ -1,20 +1,11 @@
+/* Defining variables */
 :root {
     --main-color: #10064b;
     --main-color-darker: #060220;
     --main-color-lighter: #755df8;
     --white: #ffffff;
 }
-/* Reset some basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-  }
-  
+
 /* Text Colors */
 .text-main-color {
     color: var(--main-color-darker);
@@ -29,10 +20,15 @@
 
 /* SVG Icon Styles */
 .nav-item svg {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    color: var(--main-color-darker); /* Ensure SVG icons use the main color */
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.search-icon {
+    padding-left: 25px;
+    background: url("../img/search.png") no-repeat left;
+    background-size: 20px;
 }
 
 /* Profile Image Styles */
@@ -40,27 +36,11 @@
     width: 50px;
     height: 50px;
     padding: 7px;
-    border-radius: 50%;
-    object-fit: cover;
 }
 
-/* Background Colors */
-.bg-second-color {
-    background-color: rgb(228, 224, 224);
-}
-
-/* Flexbox Centering */
-.d-flex {
+.d-flex-search {
     justify-content: center;
-    padding: 5px;
-    margin: 20px;
     width: 100%;
-}
-
-/* Hover Effects */
-.nav-item:hover {
-    background-color: rgb(228, 224, 224);
-    border-radius: 50%;
 }
 
 /* Logo Styling */
@@ -77,17 +57,16 @@
 
     .form-control {
         width: 100%;
-        margin: 10px 0;
     }
 
     .nav-item svg {
-        width: 30px; /* Adjust icon size for smaller screens */
+        width: 30px;
         height: 30px;
     }
 
     .profile {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -95,40 +74,4 @@
     .navbar-nav {
         flex-direction: row;
     }
-
-    .form-control {
-        width: 300px;
-    }
-}
-
-.profile-popup {
-    display: none;
-    position: absolute;
-    top: 70px;
-    right: auto;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    z-index: 1000;
-}
-
-.profile-popup ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.profile-popup ul li {
-    padding: 10px 20px;
-}
-
-.profile-popup ul li a {
-    text-decoration: none;
-    color: #333;
-    display: block;
-}
-
-.profile-popup ul li a:hover {
-    background-color: #f0f0f0;
 }
